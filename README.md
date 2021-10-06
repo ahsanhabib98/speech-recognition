@@ -6,13 +6,13 @@ cd speech-recognition
 ````
 ### For windows
 ````
-pip install requirements.txt
+pip install -r requirements.txt
 python convert_speech_text.py
 ````
 ### For linux
 ````
 sudo apt-get install python3-pyaudio
 sudo apt-get install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
-pip install requirements.txt
+pip install -r requirements.txt
 python convert_speech_text.py
 ````
